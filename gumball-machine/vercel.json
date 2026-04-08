@@ -1,8 +1,0 @@
-{
-  "buildCommand": "prisma generate && prisma db push && next build",
-  "outputDirectory": ".next",
-  "framework": "nextjs",
-  "env": {
-    "DATABASE_URL": "@database_url"
-  }
-}
